@@ -1,7 +1,10 @@
 export const Practice1 = () => {
-  const onClickPractice = () => {
-    alert();
+  const calculateFee = (num: number) => {
+    const total = num * 1.1;
+    console.log(total);
   };
+
+  const onClickPractice = () => calculateFee(1000);
 
   return (
     <div>
